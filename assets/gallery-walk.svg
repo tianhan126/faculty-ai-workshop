@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="420" viewBox="0 0 600 420">
+  <rect width="600" height="420" rx="24" fill="#e4edf5"/>
+  <circle cx="302" cy="218" r="155" fill="#d3e4dc"/>
+  <path d="M191 72c84-49 186-24 242 35m-7-29 10 32-34-3" fill="none" stroke="#275b48" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M435 342c-77 49-186 40-257-12m8 30-14-33 35-1" fill="none" stroke="#275b48" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Presenter behind the laptop station. -->
+  <path d="M258 226v-48q0-35 42-35t42 35v48" fill="#275b48"/>
+  <circle cx="300" cy="107" r="30" fill="#e8b98f"/>
+  <path d="M271 106q-7-35 26-37 35-3 34 34l-16-17-18 8-19-3Z" fill="#17324d"/>
+  <path d="M290 113q10 11 20 0" fill="none" stroke="#17324d" stroke-width="3" stroke-linecap="round"/>
+  <path d="m266 178-27 29-34-20m131-8 26 27 26-17" fill="none" stroke="#275b48" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="202" cy="185" r="10" fill="#e8b98f"/>
+  <circle cx="391" cy="187" r="10" fill="#e8b98f"/>
+  <!-- Visiting colleagues on either side. -->
+  <path d="m105 278-7 57m37-57 14 57" stroke="#17324d" stroke-width="15" stroke-linecap="round"/>
+  <path d="M87 282v-63q0-27 30-27t31 27v63" fill="#e67b5c"/>
+  <circle cx="117" cy="157" r="26" fill="#c98e65"/>
+  <path d="M91 157q-4-32 25-32 31 0 29 34l-11-16-29-5-10 24Z" fill="#17324d"/>
+  <path d="m145 222 22 20 30-13" fill="none" stroke="#e67b5c" stroke-width="16" stroke-linecap="round"/>
+  <circle cx="200" cy="228" r="9" fill="#c98e65"/>
+  <path d="m471 277-13 58m42-58 8 58" stroke="#17324d" stroke-width="15" stroke-linecap="round"/>
+  <path d="M452 282v-63q0-27 31-27t31 27v63" fill="#4c86ac"/>
+  <circle cx="483" cy="157" r="26" fill="#edc5a5"/>
+  <path d="M457 154q-3-31 27-29 29 2 26 33l-14-18-27 3-10 18Z" fill="#664838"/>
+  <path d="m454 218-22 19-28-13" fill="none" stroke="#4c86ac" stroke-width="16" stroke-linecap="round"/>
+  <circle cx="402" cy="223" r="9" fill="#edc5a5"/>
+  <!-- Laptop, project sign and table. -->
+  <path d="M228 267v62m146-62v62" stroke="#17324d" stroke-width="10" stroke-linecap="round"/>
+  <rect x="195" y="252" width="209" height="15" rx="7" fill="#17324d"/>
+  <rect x="288" y="191" width="103" height="62" rx="7" fill="#17324d"/>
+  <rect x="297" y="200" width="85" height="43" rx="3" fill="#fff"/>
+  <rect x="307" y="213" width="19" height="20" rx="2" fill="#e9b84e"/>
+  <path d="M336 214h32m-32 13h24" stroke="#6c9b87" stroke-width="6" stroke-linecap="round"/>
+  <path d="M279 251h121" stroke="#17324d" stroke-width="7" stroke-linecap="round"/>
+  <path d="m219 251 5-50h40l6 50Z" fill="#f3c45c" stroke="#ba8831" stroke-width="3"/>
+  <path d="M234 217h20m-22 12h24" stroke="#17324d" stroke-width="4" stroke-linecap="round"/>
+  <!-- Conversation cue. -->
+  <path d="M76 59h75q12 0 12 12v35q0 12-12 12h-30l-17 16v-16H76q-12 0-12-12V71q0-12 12-12Z" fill="#fff"/>
+  <g fill="#17324d"><circle cx="89" cy="88" r="5"/><circle cx="113" cy="88" r="5"/><circle cx="137" cy="88" r="5"/></g>
+  <circle cx="488" cy="76" r="16" fill="#f3c45c"/>
+</svg>
