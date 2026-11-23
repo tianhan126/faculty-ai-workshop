@@ -63,9 +63,10 @@ table { width: 100%; border-collapse: collapse; text-align: left; }
 .schedule-card td:first-child { width: 91px; white-space: nowrap; font-size: 14px; padding-left: 24px; font-variant-numeric: tabular-nums; }
 .schedule-card td:nth-child(2) { width: 130px; font-weight: 650; }
 .schedule-card td:last-child { color: #2e414e; }
-.practice-note { display: flex; align-items: start; gap: 15px; padding: 16px 20px; margin: 28px 0 40px; border: 1px solid #cbd8e2; border-radius: 5px; background: #eaf1f7; }
-.practice-note p { margin: 0; font-size: 17px; line-height: 1.65; }
-.practice-note .icon { margin-top: 2px; color: var(--navy); }
+
+
+
+.opening-concept { margin-top: 40px; }
 .heading-line { display: flex; align-items: baseline; gap: 24px; flex-wrap: wrap; margin-bottom: 26px; }
 .heading-line h2 { font-size: 36px; }
 .heading-line > span { color: var(--muted); font-size: 18px; }
@@ -306,7 +307,7 @@ details[open] > summary .case-chevron, details[open] > summary > .icon { transfo
   .hero-subtitle { font-size: 17px; margin: 22px 0; }
   .hero-actions { gap: 9px; }
   .button { padding: 10px 14px; font-size: 14px; }
-  .practice-note { padding: 17px; margin: 28px 0 42px; gap: 12px; }
+
   .schedule-card h2 { padding: 17px; }
   .schedule-card th { padding: 9px; font-size: 10px; letter-spacing: 0; }
   .schedule-card td { padding: 11px 9px; font-size: 12px; }
