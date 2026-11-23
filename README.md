@@ -1,5 +1,9 @@
 # Faculty Workshop website
 
+Public website: https://tianhan126.github.io/faculty-codex-101-workshop/
+
+Published on 2026-11-23. Verified in an unsigned-in browser: all four pages load, all 11 Download buttons save files matching the originals, prompt copying works, and the mobile layout has no horizontal overflow.
+
 This folder is a self-contained static website. Keep all its files together when uploading to GitHub Pages. No build tools, external libraries, or API keys are required.
 
 - `index.html`: workshop page
