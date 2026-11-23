@@ -1,0 +1,353 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>Workshop website blueprint · Codex Faculty Workshop</title><link rel="stylesheet" href="styles.css"><script src="downloads.js?v=3" defer></script><script src="app.js?v=downloads-3" defer></script></head><body class="document-page"><a class="skip-link" href="#document-content">Skip to document</a><header class="document-header"><div class="container"><a class="doc-back" href="index.html"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m8 5 7 7-7 7"/></svg> Workshop home</a><nav aria-label="Reference documents"><a href="cases.html" >Cases</a><a href="policies.html" >Policies</a><a href="blueprint.html" aria-current="page">Blueprint</a></nav></div></header><main class="container document-main"><div class="doc-title"><p class="eyebrow">From a written plan to a working website</p><h1>Workshop website blueprint</h1></div><div class="doc-toolbar"><div class="view-toggle" role="group" aria-label="Document view"><button type="button" data-view="preview" aria-pressed="true">Preview</button><button type="button" data-view="raw" aria-pressed="false">Raw .md</button></div><a class="download doc-download" href="docs/Workshop_Website_Blueprint.md" download="Workshop_Website_Blueprint.md"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v11m-4-4 4 4 4-4M4 15v5h16v-5"/></svg><span>Download .md</span></a></div><div class="document-layout"><aside class="document-toc"><p>On this page</p><nav aria-label="Document contents"><a class="toc-level-2" href="#doc-section-2">0. Global Website Design &amp; Interactive Features</a><a class="toc-level-2" href="#doc-section-3">Section 1 · Hero &amp; Opening</a><a class="toc-level-3" href="#doc-section-4">1.1 Hero Header</a><a class="toc-level-3" href="#doc-section-5">1.2 Two-Hour Schedule</a><a class="toc-level-3" href="#doc-section-6">1.3 Opening Visual: From Talking to Doing (Chatbots vs. AI Agents)</a><a class="toc-level-2" href="#doc-section-7">Section 2 · Part 1: Workflow Automation</a><a class="toc-level-3" href="#doc-section-8">2.1 Concept Framing</a><a class="toc-level-3" href="#doc-section-9">2.2 Demo 1: Update a syllabus &amp; generate a Canvas import file</a><a class="toc-level-3" href="#doc-section-10">2.3 Part 1 Reference Cases (Collapsible Cards)</a><a class="toc-level-2" href="#doc-section-11">Section 3 · Part 2: Vibe Coding / AI coding</a><a class="toc-level-3" href="#doc-section-12">3.1 Concept Framing</a><a class="toc-level-3" href="#doc-section-13">3.2 Demo 2: Turn a CV into a personal website</a><a class="toc-level-3" href="#doc-section-14">3.3 Part 2 Reference Cases (Collapsible Cards)</a><a class="toc-level-2" href="#doc-section-15">Section 4 · 4 Quick Tips for Working with Codex</a><a class="toc-level-2" href="#doc-section-16">Section 5 · Personal Project &amp; Gallery Walk</a><a class="toc-level-3" href="#doc-section-17">5.1 Personal Project Time: Build a First Version</a><a class="toc-level-3" href="#doc-section-18">5.2 Gallery Walk (Peer Sharing)</a><a class="toc-level-2" href="#doc-section-19">Section 6 · Wrap-Up: Embedded Padlet</a><a class="toc-level-2" href="#doc-section-20">Section 7 · FAQ (Collapsible Accordion)</a></nav></aside><article id="document-content" class="markdown-body"><h1 id="doc-section-1">Faculty Workshop: Agentic Workflow with Codex · Website Blueprint</h1>
+<blockquote>
+<p><strong>Purpose:</strong> Single source of truth used to plan, iterate, and generate the workshop website and printed handout.</p>
+</blockquote>
+<hr>
+<h2 id="doc-section-2">0. Global Website Design &amp; Interactive Features</h2>
+<ul>
+<li><strong>Hosting &amp; Format:</strong> Static single-page website (HTML/CSS/JS) hosted on <strong>GitHub Pages</strong> (no login required, direct access on campus Wi-Fi, hosting 6 downloadable starter files).</li>
+<li><strong>Visual Style:</strong> Bold Swiss high-contrast academic layout with section color-coding:<ul>
+<li><strong>Opening, Quick Tips, Personal Project, Padlet &amp; FAQ:</strong> DKU Navy &amp; Ice Blue</li>
+<li><strong>Part 1 (Workflow Automation):</strong> Academic Forest Green &amp; Sage</li>
+<li><strong>Part 2 (Vibe Coding):</strong> Warm Terracotta &amp; Sand</li>
+</ul>
+</li>
+<li><strong>Sticky Top Navigation:</strong> <code>Opening</code> · <code>Part 1: Workflow</code> · <code>Part 2: Vibe Coding</code> · <code>Quick Tips</code> · <code>Personal Project</code> · <code>Padlet</code> · <code>FAQ</code>.</li>
+<li><strong>Core Interactive Components:</strong><ol>
+<li><strong>One-Click Copy Prompt Buttons:</strong> Every demo and reference case prompt includes a <code>Copy</code> button that flashes <code>Copied ✓</code>.</li>
+<li><strong>Interactive Demo Checkboxes:</strong> Clickable step checkboxes in Demo 1 and Demo 2 with local browser persistence.</li>
+<li><strong>Direct Single-File Downloads (No ZIP):</strong> 6 standalone files stored in <code>files/</code>:<ul>
+<li><code>File 1A</code>: <code>DKU_Calendar_2026-2027.pdf</code></li>
+<li><code>File 1B</code>: <code>Sample_Syllabus_Spring2025.docx</code></li>
+<li><code>File 2A</code>: <code>Sheldon_Sample_CV.docx</code></li>
+<li><code>File 2B</code>: <code>Sheldon_Portrait.png</code></li>
+<li><code>File 3A</code>: <code>Sample_Lesson_Plan_Week2.docx</code></li>
+<li><code>File 4A</code>: <code>OWID_AI_Scholarly_Publications_by_Country.csv</code></li>
+</ul>
+</li>
+</ol>
+</li>
+</ul>
+<hr>
+<h2 id="doc-section-3">Section 1 · Hero &amp; Opening</h2>
+<h3 id="doc-section-4">1.1 Hero Header</h3>
+<ul>
+<li><strong>Title:</strong> Faculty Workshop: Agentic Workflow with Codex</li>
+<li><strong>Subtitle:</strong> A hands-on introduction for faculty across disciplines · No coding experience required</li>
+<li><strong>Quick Note Banner:</strong> <em>Today&#39;s exercises use mock or non-sensitive materials. Institutional permissions for real student records or live campus systems will be gathered and clarified separately with CTL &amp; IT.</em></li>
+</ul>
+<h3 id="doc-section-5">1.2 Two-Hour Schedule</h3>
+<table>
+<thead>
+<tr>
+<th align="left">Time</th>
+<th align="left">Session</th>
+<th align="left">What You&#39;ll Do</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">0–5 min</td>
+<td align="left">Opening</td>
+<td align="left">Quick intro: Chatbots vs. AI Agents</td>
+</tr>
+<tr>
+<td align="left">5–35 min</td>
+<td align="left"><strong>Part 1 · Workflow Automation</strong></td>
+<td align="left">Practice multi-file agent workflows <em>(demo: update a syllabus &amp; generate a Canvas import file)</em></td>
+</tr>
+<tr>
+<td align="left">35–65 min</td>
+<td align="left"><strong>Part 2 · Vibe Coding</strong></td>
+<td align="left">Practice building &amp; refining webpages <em>(demo: CV to personal website)</em></td>
+</tr>
+<tr>
+<td align="left">65–90 min</td>
+<td align="left"><strong>Personal Project</strong></td>
+<td align="left">Try Codex on one small task from your own work</td>
+</tr>
+<tr>
+<td align="left">90–115 min</td>
+<td align="left"><strong>Gallery Walk</strong></td>
+<td align="left">Two rounds of informal peer sharing</td>
+</tr>
+<tr>
+<td align="left">115–120 min</td>
+<td align="left"><strong>Wrap-Up</strong></td>
+<td align="left">Q&amp;A and share ideas/projects on Padlet</td>
+</tr>
+</tbody></table>
+<h3 id="doc-section-6">1.3 Opening Visual: From Talking to Doing (Chatbots vs. AI Agents)</h3>
+<ul>
+<li><strong>Left · Chatbot</strong> <em>(ChatGPT web, Claude chat)</em> — <strong>The Brain (in a chat window)</strong> · <code>Chat · Answer · Draft</code>: Mainly works inside a chat window—great for brainstorming, answering questions, and drafting text, while <strong>you</strong> handle the files and next steps.</li>
+<li><strong>Right · AI Agent</strong> <em>(Codex, ChatGPT Work, Claude Code, Antigravity)</em> — <strong>The Brain + Hands &amp; a Toolbelt</strong> · <code>Read · Use Tools · Execute · Iterate</code>: Works directly inside your project folder—reading files, using tools, and delivering real outputs for you to review and refine:<ol>
+<li><strong>Project Folders</strong> <em>(read multiple files at once)</em></li>
+<li><strong>Documents &amp; Files</strong> <em>(edit Word with Track Changes, create <code>.imscc</code> / CSV)</em></li>
+<li><strong>Webpages &amp; Tools</strong> <em>(build, preview &amp; refine HTML pages or mini-apps)</em></li>
+<li><strong>Scripts &amp; Platforms</strong> <em>(run code, connect authorized tools)</em></li>
+</ol>
+</li>
+</ul>
+<hr>
+<h2 id="doc-section-7">Section 2 · Part 1: Workflow Automation</h2>
+<h3 id="doc-section-8">2.1 Concept Framing</h3>
+<p><em>What it is:</em> Letting Codex read multiple files in a folder, carry out multi-step edits, and produce new files. <strong>Updating a syllabus is just one starter demo</strong>—the same workflow applies to much of our everyday multi-file work, such as course prep, research synthesis, and more.</p>
+<h3 id="doc-section-9">2.2 Demo 1: Update a syllabus &amp; generate a Canvas import file</h3>
+<table>
+<thead>
+<tr>
+<th align="left">Step</th>
+<th align="left">What to Do &amp; Sample Prompts</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong>Step 1 · Set up project</strong></td>
+<td align="left">1. Create a folder <code>Demo 1</code> on your Desktop. 2. Download <code>File 1A</code> (<code>DKU_Calendar_2026-2027.pdf</code>) and <code>File 1B</code> (<code>Sample_Syllabus_Spring2025.docx</code>) into <code>Demo 1</code>. 3. In Codex, click <strong>Create project</strong>, name it <code>Demo 1</code>, and add your Desktop folder <code>Demo 1</code>.</td>
+</tr>
+<tr>
+<td align="left"><strong>Step 2 · Update syllabus</strong></td>
+<td align="left">Sample prompt: <em>&quot;Use the DKU academic calendar to update the Spring 2025 Session 3 syllabus for Fall 2026 Session 1. Classes meet Tuesdays and Thursdays from 12:00 to 14:30 in IB 2013, with office hours on Tuesdays from 11:00 to 11:45 in IB 2043. Save a separate Word copy with Track Changes and flag anything you can&#39;t determine.&quot;</em></td>
+</tr>
+<tr>
+<td align="left"><strong>Step 3 · Review &amp; accept</strong></td>
+<td align="left">1. Open the new Word file and verify key details against the DKU calendar. 2. Once everything looks right, choose <strong>Accept All Changes</strong> and save your updated Fall syllabus.</td>
+</tr>
+<tr>
+<td align="left"><strong>Step 4 (Bonus) · Canvas import file</strong></td>
+<td align="left">1. Sample prompt: <em>&quot;Use the new syllabus to create a course file I can import into Canvas.&quot;</em> 2. Create a test course in Canvas, import the generated <code>.imscc</code> file, and check whether the modules, assignments, and due dates look right.</td>
+</tr>
+</tbody></table>
+<h3 id="doc-section-10">2.3 Part 1 Reference Cases (Collapsible Cards)</h3>
+<ul>
+<li><strong>Reference Case 1 · Course Prep: From Course Materials to Teaching Resources</strong> — Draft an assignment sheet &amp; rubric in Word from <code>File 1B</code>, plus university examples (DKU CTL Changcheng Zheng, Northeastern, University of Vermont).</li>
+<li><strong>Reference Case 2 · Connect to Other Platforms (Google Drive, Zotero, Zoom)</strong> — Summarize 3 shared meeting notes in Google Drive and write back an action tracker into <code>Outputs</code>, plus Zoom &amp; Zotero plugin examples.</li>
+</ul>
+<hr>
+<h2 id="doc-section-11">Section 3 · Part 2: Vibe Coding / AI coding</h2>
+<h3 id="doc-section-12">3.1 Concept Framing</h3>
+<p><em>What it is:</em> Describing what you want in everyday language—English, Chinese, or a mix of both—so Codex builds a working webpage or small digital tool that you can preview, check, refine, and even publish. <strong>A personal website is just an accessible first demo</strong>—the exact same loop works for HTML slides, concept simulations, data dashboards, and even custom tools and apps to solve everyday teaching and research problems.</p>
+<h3 id="doc-section-13">3.2 Demo 2: Turn a CV into a personal website</h3>
+<ul>
+<li><strong>Real Faculty Websites for Inspiration:</strong> Yisu Zhou (DKU) · Dirk Schieborn (Reutlingen Univ.) · Gary King (Harvard) · Brandon Stewart (Princeton)</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th align="left">Step</th>
+<th align="left">What to Do &amp; Sample Prompts</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong>Step 1 · Set up project</strong></td>
+<td align="left">1. Create a folder <code>Demo 2</code> on your Desktop. 2. Download <code>File 2A</code> (<code>Sheldon_Sample_CV.docx</code>) and <code>File 2B</code> (<code>Sheldon_Portrait.png</code>) into <code>Demo 2</code> (or swap in your own public CV/photo). 3. Create project <code>Demo 2</code> in Codex.</td>
+</tr>
+<tr>
+<td align="left"><strong>Step 2 · Generate &amp; preview</strong></td>
+<td align="left">Sample prompt: <em>&quot;Use the CV and portrait in the folder to create a personal website for Sheldon Cooper.&quot;</em> Preview and inspect the HTML file.</td>
+</tr>
+<tr>
+<td align="left"><strong>Step 3 · Check &amp; revise</strong></td>
+<td align="left">Make at least 1 edit via <strong>Annotation</strong> or <strong>Chat</strong> (e.g., <em>&quot;Add an Office Hours section&quot;</em>, or <em>&quot;Give the website a Star Wars-inspired look&quot;</em>), then refresh your browser.</td>
+</tr>
+<tr>
+<td align="left"><strong>Step 4 (Optional) · Publish online</strong></td>
+<td align="left">Sign up at <code>github.com</code> and send Codex: <em>&quot;Help me publish this website to GitHub Pages and give me a shareable link.&quot;</em></td>
+</tr>
+</tbody></table>
+<h3 id="doc-section-14">3.3 Part 2 Reference Cases (Collapsible Cards)</h3>
+<ul>
+<li><strong>Reference Case 3 · Course Pages &amp; HTML Slides</strong> <em>(Quick Demo with <code>File 1B</code> + <code>File 3A</code>)</em> — Build a single-file HTML slide deck from a syllabus and Week 2 lesson plan; includes Khalifa University, University of Sydney, CSU Chico, Harvard GSE, and This Workshop Website itself.</li>
+<li><strong>Reference Case 4 · Data Dashboards &amp; Visualizations</strong> <em>(Quick Demo with <code>File 4A</code> real public OWID dataset)</em> — Build an interactive HTML data dashboard from a CSV and optionally compare with Our World in Data&#39;s official visualization; includes Duke Library Dashboard and Oxford Geographic Bias Dashboard.</li>
+<li><strong>Reference Case 5 · Interactive Simulations &amp; Learning Games</strong> <em>(Inspiration Showcase)</em> — UVM Supply &amp; Demand, Into the Magma Chamber, Oxford 3D Peptide Explorer, The Ames Room, Apothecary Simulator (1680s Mexico City RPG), and WeTeachWithAI Gallery.</li>
+<li><strong>Reference Case 6 · Custom Tools &amp; Apps</strong> <em>(Inspiration Showcase)</em> — <code>pdf2plot</code>, <code>Grantbar</code>, and <code>Overhead</code>.</li>
+</ul>
+<hr>
+<h2 id="doc-section-15">Section 4 · 4 Quick Tips for Working with Codex</h2>
+<ol>
+<li><strong>Start simple and iterate:</strong> Don&#39;t try to write a perfect prompt in one go. Ask for a simple first version, look at what Codex builds, and adjust one thing at a time in everyday language—English, Chinese, or a mix of both.</li>
+<li><strong>Use a screenshot as your prompt:</strong> Like the look of a dashboard, activity page, or website? Take a screenshot of it, drop it into your folder with your own data or text, and tell Codex: <em>&quot;Build an HTML page for my file using a similar layout and visual style to this screenshot.&quot;</em></li>
+<li><strong>For complex tasks, plan before you build:</strong> Today&#39;s sample prompts generate a file in one step so you can try them quickly. For larger projects—like this workshop website—don&#39;t jump straight to the final output. Let Codex read your materials first, talk through ideas back and forth, and save an outline or Markdown blueprint. Once the plan looks right, ask Codex to generate the final file and refine it.</li>
+<li><strong>Stay in the driver&#39;s seat and check key decisions:</strong> When trying a new task, review Codex step by step so you see how it works. Once a routine workflow becomes familiar, you can let Codex handle more of the legwork while you keep checking the key decisions and final outputs.</li>
+</ol>
+<hr>
+<h2 id="doc-section-16">Section 5 · Personal Project &amp; Gallery Walk</h2>
+<h3 id="doc-section-17">5.1 Personal Project Time: Build a First Version</h3>
+<table>
+<thead>
+<tr>
+<th align="left">Track</th>
+<th align="left">What to Try</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong>Track 1 · Build on a Demo</strong></td>
+<td align="left">Continue refining one of today&#39;s two demos—using the sample files or swapping in your own syllabus or CV.</td>
+</tr>
+<tr>
+<td align="left"><strong>Track 2 · Adapt a Reference Case</strong></td>
+<td align="left">Pick a case from the <strong>Reference Cases</strong> above and adapt its sample prompt to your own course or research.</td>
+</tr>
+<tr>
+<td align="left"><strong>Track 3 · Try Your Own Idea</strong></td>
+<td align="left">Start from a small task in your own teaching or research—put 1–2 non-sensitive files in a folder and experiment on your ideas!</td>
+</tr>
+</tbody></table>
+<h3 id="doc-section-18">5.2 Gallery Walk (Peer Sharing)</h3>
+<ol>
+<li><strong>Prepare your sign:</strong> Write your project or idea title in large letters on the <strong>Gallery Walk Sign</strong> section of your Handout and display it next to your laptop.</li>
+<li><strong>Two rounds of Gallery Walk:</strong> Round 1: Half of the room stays at their laptops to share; the other half walks around to explore. Round 2: Switch roles!</li>
+</ol>
+<hr>
+<h2 id="doc-section-19">Section 6 · Wrap-Up: Embedded Padlet</h2>
+<ul>
+<li><strong>Your project or idea:</strong> Share a short note, screenshot, or link so more DKU colleagues can see what you tried.</li>
+<li><strong>Questions &amp; support:</strong> Post any questions or next-step support you&#39;d like from DKU.</li>
+<li><strong>Embedded Board:</strong> Live Padlet iframe (<code>https://padlet.com/embed/s025pc4zxzkm53ienyfg</code>) + fallback button to open in a new tab.</li>
+</ul>
+<hr>
+<h2 id="doc-section-20">Section 7 · FAQ (Collapsible Accordion)</h2>
+<ol>
+<li><strong>Q1:</strong> Why are we using Codex today instead of ChatGPT Work or regular ChatGPT?</li>
+<li><strong>Q2:</strong> Can I use real student work with Codex?</li>
+<li><strong>Q3:</strong> Do I have to publish an HTML webpage online to use or share it? <em>(Option 1: regular file; Option 2: GitHub Pages or ChatGPT Sites)</em></li>
+<li><strong>Q4:</strong> Which file formats work best with Codex (Word / PPT vs. Markdown / HTML)?</li>
+<li><strong>Q5:</strong> What if I have a lot of background context to explain—do I have to type it all out? <em>(Voice input: Doubao Input, Shandianshuo, Typeless)</em></li>
+</ol>
+</article><pre id="raw-content" class="raw-content" hidden><code># Faculty Workshop: Agentic Workflow with Codex · Website Blueprint
+
+&gt; **Purpose:** Single source of truth used to plan, iterate, and generate the workshop website and printed handout.
+
+---
+
+## 0. Global Website Design &amp; Interactive Features
+
+* **Hosting &amp; Format:** Static single-page website (HTML/CSS/JS) hosted on **GitHub Pages** (no login required, direct access on campus Wi-Fi, hosting 6 downloadable starter files).
+* **Visual Style:** Bold Swiss high-contrast academic layout with section color-coding:
+  * **Opening, Quick Tips, Personal Project, Padlet &amp; FAQ:** DKU Navy &amp; Ice Blue
+  * **Part 1 (Workflow Automation):** Academic Forest Green &amp; Sage
+  * **Part 2 (Vibe Coding):** Warm Terracotta &amp; Sand
+* **Sticky Top Navigation:** `Opening` · `Part 1: Workflow` · `Part 2: Vibe Coding` · `Quick Tips` · `Personal Project` · `Padlet` · `FAQ`.
+* **Core Interactive Components:**
+  1. **One-Click Copy Prompt Buttons:** Every demo and reference case prompt includes a `Copy` button that flashes `Copied ✓`.
+  2. **Interactive Demo Checkboxes:** Clickable step checkboxes in Demo 1 and Demo 2 with local browser persistence.
+  3. **Direct Single-File Downloads (No ZIP):** 6 standalone files stored in `files/`:
+     * `File 1A`: `DKU_Calendar_2026-2027.pdf`
+     * `File 1B`: `Sample_Syllabus_Spring2025.docx`
+     * `File 2A`: `Sheldon_Sample_CV.docx`
+     * `File 2B`: `Sheldon_Portrait.png`
+     * `File 3A`: `Sample_Lesson_Plan_Week2.docx`
+     * `File 4A`: `OWID_AI_Scholarly_Publications_by_Country.csv`
+
+---
+
+## Section 1 · Hero &amp; Opening
+
+### 1.1 Hero Header
+* **Title:** Faculty Workshop: Agentic Workflow with Codex
+* **Subtitle:** A hands-on introduction for faculty across disciplines · No coding experience required
+* **Quick Note Banner:** *Today's exercises use mock or non-sensitive materials. Institutional permissions for real student records or live campus systems will be gathered and clarified separately with CTL &amp; IT.*
+
+### 1.2 Two-Hour Schedule
+
+| Time | Session | What You'll Do |
+| :--- | :--- | :--- |
+| 0–5 min | Opening | Quick intro: Chatbots vs. AI Agents |
+| 5–35 min | **Part 1 · Workflow Automation** | Practice multi-file agent workflows *(demo: update a syllabus &amp; generate a Canvas import file)* |
+| 35–65 min | **Part 2 · Vibe Coding** | Practice building &amp; refining webpages *(demo: CV to personal website)* |
+| 65–90 min | **Personal Project** | Try Codex on one small task from your own work |
+| 90–115 min | **Gallery Walk** | Two rounds of informal peer sharing |
+| 115–120 min | **Wrap-Up** | Q&amp;A and share ideas/projects on Padlet |
+
+### 1.3 Opening Visual: From Talking to Doing (Chatbots vs. AI Agents)
+* **Left · Chatbot** *(ChatGPT web, Claude chat)* — **The Brain (in a chat window)** · `Chat · Answer · Draft`: Mainly works inside a chat window—great for brainstorming, answering questions, and drafting text, while **you** handle the files and next steps.
+* **Right · AI Agent** *(Codex, ChatGPT Work, Claude Code, Antigravity)* — **The Brain + Hands &amp; a Toolbelt** · `Read · Use Tools · Execute · Iterate`: Works directly inside your project folder—reading files, using tools, and delivering real outputs for you to review and refine:
+  1. **Project Folders** *(read multiple files at once)*
+  2. **Documents &amp; Files** *(edit Word with Track Changes, create `.imscc` / CSV)*
+  3. **Webpages &amp; Tools** *(build, preview &amp; refine HTML pages or mini-apps)*
+  4. **Scripts &amp; Platforms** *(run code, connect authorized tools)*
+
+---
+
+## Section 2 · Part 1: Workflow Automation
+
+### 2.1 Concept Framing
+*What it is:* Letting Codex read multiple files in a folder, carry out multi-step edits, and produce new files. **Updating a syllabus is just one starter demo**—the same workflow applies to much of our everyday multi-file work, such as course prep, research synthesis, and more.
+
+### 2.2 Demo 1: Update a syllabus &amp; generate a Canvas import file
+
+| Step | What to Do &amp; Sample Prompts |
+| :--- | :--- |
+| **Step 1 · Set up project** | 1. Create a folder `Demo 1` on your Desktop. 2. Download `File 1A` (`DKU_Calendar_2026-2027.pdf`) and `File 1B` (`Sample_Syllabus_Spring2025.docx`) into `Demo 1`. 3. In Codex, click **Create project**, name it `Demo 1`, and add your Desktop folder `Demo 1`. |
+| **Step 2 · Update syllabus** | Sample prompt: *&quot;Use the DKU academic calendar to update the Spring 2025 Session 3 syllabus for Fall 2026 Session 1. Classes meet Tuesdays and Thursdays from 12:00 to 14:30 in IB 2013, with office hours on Tuesdays from 11:00 to 11:45 in IB 2043. Save a separate Word copy with Track Changes and flag anything you can't determine.&quot;* |
+| **Step 3 · Review &amp; accept** | 1. Open the new Word file and verify key details against the DKU calendar. 2. Once everything looks right, choose **Accept All Changes** and save your updated Fall syllabus. |
+| **Step 4 (Bonus) · Canvas import file** | 1. Sample prompt: *&quot;Use the new syllabus to create a course file I can import into Canvas.&quot;* 2. Create a test course in Canvas, import the generated `.imscc` file, and check whether the modules, assignments, and due dates look right. |
+
+### 2.3 Part 1 Reference Cases (Collapsible Cards)
+* **Reference Case 1 · Course Prep: From Course Materials to Teaching Resources** — Draft an assignment sheet &amp; rubric in Word from `File 1B`, plus university examples (DKU CTL Changcheng Zheng, Northeastern, University of Vermont).
+* **Reference Case 2 · Connect to Other Platforms (Google Drive, Zotero, Zoom)** — Summarize 3 shared meeting notes in Google Drive and write back an action tracker into `Outputs`, plus Zoom &amp; Zotero plugin examples.
+
+---
+
+## Section 3 · Part 2: Vibe Coding / AI coding
+
+### 3.1 Concept Framing
+*What it is:* Describing what you want in everyday language—English, Chinese, or a mix of both—so Codex builds a working webpage or small digital tool that you can preview, check, refine, and even publish. **A personal website is just an accessible first demo**—the exact same loop works for HTML slides, concept simulations, data dashboards, and even custom tools and apps to solve everyday teaching and research problems.
+
+### 3.2 Demo 2: Turn a CV into a personal website
+* **Real Faculty Websites for Inspiration:** Yisu Zhou (DKU) · Dirk Schieborn (Reutlingen Univ.) · Gary King (Harvard) · Brandon Stewart (Princeton)
+
+| Step | What to Do &amp; Sample Prompts |
+| :--- | :--- |
+| **Step 1 · Set up project** | 1. Create a folder `Demo 2` on your Desktop. 2. Download `File 2A` (`Sheldon_Sample_CV.docx`) and `File 2B` (`Sheldon_Portrait.png`) into `Demo 2` (or swap in your own public CV/photo). 3. Create project `Demo 2` in Codex. |
+| **Step 2 · Generate &amp; preview** | Sample prompt: *&quot;Use the CV and portrait in the folder to create a personal website for Sheldon Cooper.&quot;* Preview and inspect the HTML file. |
+| **Step 3 · Check &amp; revise** | Make at least 1 edit via **Annotation** or **Chat** (e.g., *&quot;Add an Office Hours section&quot;*, or *&quot;Give the website a Star Wars-inspired look&quot;*), then refresh your browser. |
+| **Step 4 (Optional) · Publish online** | Sign up at `github.com` and send Codex: *&quot;Help me publish this website to GitHub Pages and give me a shareable link.&quot;* |
+
+### 3.3 Part 2 Reference Cases (Collapsible Cards)
+* **Reference Case 3 · Course Pages &amp; HTML Slides** *(Quick Demo with `File 1B` + `File 3A`)* — Build a single-file HTML slide deck from a syllabus and Week 2 lesson plan; includes Khalifa University, University of Sydney, CSU Chico, Harvard GSE, and This Workshop Website itself.
+* **Reference Case 4 · Data Dashboards &amp; Visualizations** *(Quick Demo with `File 4A` real public OWID dataset)* — Build an interactive HTML data dashboard from a CSV and optionally compare with Our World in Data's official visualization; includes Duke Library Dashboard and Oxford Geographic Bias Dashboard.
+* **Reference Case 5 · Interactive Simulations &amp; Learning Games** *(Inspiration Showcase)* — UVM Supply &amp; Demand, Into the Magma Chamber, Oxford 3D Peptide Explorer, The Ames Room, Apothecary Simulator (1680s Mexico City RPG), and WeTeachWithAI Gallery.
+* **Reference Case 6 · Custom Tools &amp; Apps** *(Inspiration Showcase)* — `pdf2plot`, `Grantbar`, and `Overhead`.
+
+---
+
+## Section 4 · 4 Quick Tips for Working with Codex
+
+1. **Start simple and iterate:** Don't try to write a perfect prompt in one go. Ask for a simple first version, look at what Codex builds, and adjust one thing at a time in everyday language—English, Chinese, or a mix of both.
+2. **Use a screenshot as your prompt:** Like the look of a dashboard, activity page, or website? Take a screenshot of it, drop it into your folder with your own data or text, and tell Codex: *&quot;Build an HTML page for my file using a similar layout and visual style to this screenshot.&quot;*
+3. **For complex tasks, plan before you build:** Today's sample prompts generate a file in one step so you can try them quickly. For larger projects—like this workshop website—don't jump straight to the final output. Let Codex read your materials first, talk through ideas back and forth, and save an outline or Markdown blueprint. Once the plan looks right, ask Codex to generate the final file and refine it.
+4. **Stay in the driver's seat and check key decisions:** When trying a new task, review Codex step by step so you see how it works. Once a routine workflow becomes familiar, you can let Codex handle more of the legwork while you keep checking the key decisions and final outputs.
+
+---
+
+## Section 5 · Personal Project &amp; Gallery Walk
+
+### 5.1 Personal Project Time: Build a First Version
+
+| Track | What to Try |
+| :--- | :--- |
+| **Track 1 · Build on a Demo** | Continue refining one of today's two demos—using the sample files or swapping in your own syllabus or CV. |
+| **Track 2 · Adapt a Reference Case** | Pick a case from the **Reference Cases** above and adapt its sample prompt to your own course or research. |
+| **Track 3 · Try Your Own Idea** | Start from a small task in your own teaching or research—put 1–2 non-sensitive files in a folder and experiment on your ideas! |
+
+### 5.2 Gallery Walk (Peer Sharing)
+1. **Prepare your sign:** Write your project or idea title in large letters on the **Gallery Walk Sign** section of your Handout and display it next to your laptop.
+2. **Two rounds of Gallery Walk:** Round 1: Half of the room stays at their laptops to share; the other half walks around to explore. Round 2: Switch roles!
+
+---
+
+## Section 6 · Wrap-Up: Embedded Padlet
+
+* **Your project or idea:** Share a short note, screenshot, or link so more DKU colleagues can see what you tried.
+* **Questions &amp; support:** Post any questions or next-step support you'd like from DKU.
+* **Embedded Board:** Live Padlet iframe (`https://padlet.com/embed/s025pc4zxzkm53ienyfg`) + fallback button to open in a new tab.
+
+---
+
+## Section 7 · FAQ (Collapsible Accordion)
+
+1. **Q1:** Why are we using Codex today instead of ChatGPT Work or regular ChatGPT?
+2. **Q2:** Can I use real student work with Codex?
+3. **Q3:** Do I have to publish an HTML webpage online to use or share it? *(Option 1: regular file; Option 2: GitHub Pages or ChatGPT Sites)*
+4. **Q4:** Which file formats work best with Codex (Word / PPT vs. Markdown / HTML)?
+5. **Q5:** What if I have a lot of background context to explain—do I have to type it all out? *(Voice input: Doubao Input, Shandianshuo, Typeless)*
+</code></pre></div></main><footer class="site-footer"><a class="footer-title" href="index.html">Faculty Workshop · Agentic Workflow with Codex</a><nav aria-label="Reference documents"><a href="cases.html">University cases</a><a href="policies.html">AI policies</a><a href="blueprint.html">Website blueprint</a></nav></footer><div id="status-message" class="sr-only" role="status" aria-live="polite"></div></body></html>
