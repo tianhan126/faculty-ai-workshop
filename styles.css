@@ -126,9 +126,9 @@ code { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', monospace; fo
 .copy-button.is-copied { border-color: #588f76; color: #26593f; background: #eff8f0; }
 .prompt-box pre { padding: 16px 18px; margin: 0; white-space: pre-wrap; overflow-wrap: anywhere; font: 600 18px/1.6 var(--sans); color: #122a3b;  max-width: none; }
 .prompt-box code { font: inherit; padding: 0; background: transparent; color: inherit; }
-.quick-question { margin-top: 22px; border-left: 4px solid var(--forest); background: #e4eee5; padding: 20px 25px; display: flex; align-items: start; gap: 28px; }
-.quick-question > span { font-size: 13px; font-weight: 750; color: var(--forest); text-transform: uppercase; letter-spacing: .04em; white-space: nowrap; padding-top: 3px; }
-.quick-question p { margin: 0; font-size: 19px; }
+
+
+
 .references { margin-top: 32px; }
 .references > h3 { color: var(--section-color); font-size: 28px; margin-bottom: 24px; }
 .reference-case { margin: 18px 0; background: white; border: 2px solid var(--section-border); border-radius: 5px; }
@@ -326,9 +326,9 @@ details[open] > summary .case-chevron, details[open] > summary > .icon { transfo
   .prompt-box pre { font-size: 17px; padding: 18px; line-height: 1.65; }
   .copy-button { font-size: 11px; }
   .download { padding: 5px 8px; font-size: 11px; }
-  .quick-question { display: block; padding: 18px; }
-  .quick-question > span { display: block; margin-bottom: 9px; }
-  .quick-question p { font-size: 14px; }
+
+
+
   .references { margin-top: 33px; }
   .references > h3 { font-size: 20px; }
   .case-content { padding: 23px 18px; }
