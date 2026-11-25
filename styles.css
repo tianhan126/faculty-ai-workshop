@@ -137,7 +137,10 @@ code { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', monospace; fo
 summary::-webkit-details-marker { display: none; }
 .case-index { font-size: 14px; text-transform: uppercase; letter-spacing: .05em; color: var(--section-color); font-weight: 750; }
 .case-title { font-size: 24px; line-height: 1.35; font-weight: 750; color: #182b35; letter-spacing: -.015em; }
-.showcase-tag { font-size: 13px; line-height: 1.5; border: 1px solid #d8b9aa; background: #faf0e9; color: #80432e; padding: 4px 8px; border-radius: 3px;  font-weight: 650; }
+.showcase-tag { display: inline-flex; align-items: center; gap: 6px; width: fit-content; margin-top: 6px; font-size: 13px; line-height: 1.35; letter-spacing: .04em; text-transform: uppercase; border: 1px solid #92400e; background: #b45309; color: #ffffff; padding: 5px 12px; border-radius: 999px; font-weight: 750; }
+.reference-case.advanced-case { border-color: #d9a97c; border-left: 6px solid #b45309; }
+.reference-case.advanced-case > summary { background: #fffaf3; }
+.reference-case.advanced-case[open] > summary { background: #fef3e2; border-bottom-color: #d9a97c; }
 .case-chevron { grid-column: 3; transition: transform .16s; width: 23px; height: 23px; color: var(--section-color); }
 details[open] > summary .case-chevron, details[open] > summary > .icon { transform: rotate(90deg); }
 .reference-case[open] > summary { background: var(--wash); border-bottom: 1px solid var(--section-border); }
@@ -173,8 +176,10 @@ details[open] > summary .case-chevron, details[open] > summary > .icon { transfo
 .tips-section h2, .tips-section .eyebrow { color: white; }
 .tips-section .eyebrow { color: #b4d0e2; }
 .tips-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0 42px; list-style: none; padding: 0; margin: 0; }
-.tips-grid > li { padding: 26px 0; border-top: 1px solid #688196; font-size: 19px; line-height: 1.75; color: #fff; }
-.tips-grid > li > strong:first-child { display: block; color: white; font-size: 25px; margin-bottom: 10px; line-height: 1.5; }
+.tips-grid > li { padding: 28px 0; border-top: 1px solid #48647c; font-size: 18px; line-height: 1.75; color: #d6e2ec; }
+.tips-grid > li > strong:first-child { display: flex; width: fit-content; align-items: center; gap: 11px; color: #f6c967; font-size: 22px; font-weight: 750; margin-bottom: 14px; padding-bottom: 8px; border-bottom: 2px solid rgba(246, 201, 103, 0.55); line-height: 1.3; }
+.tip-icon { display: inline-flex; align-items: center; justify-content: center; width: 34px; height: 34px; flex: 0 0 34px; border-radius: 8px; background: rgba(246, 201, 103, 0.16); border: 1px solid rgba(246, 201, 103, 0.45); color: #f6c967; }
+.tip-icon svg { width: 19px; height: 19px; display: block; }
 .tips-grid .prompt-box { margin-top: 15px; }
 .tips-grid .prompt-box pre { font-size: 18px; }
 .project-section { background: #f2f6f9; border-bottom: 1px solid #cad7e1; }
